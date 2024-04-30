@@ -2,5 +2,47 @@
     font-family: 'Tiro Devanagari Sanskrit', serif; font-family: 'Outfit', sans-serif;
 }
 
+#banner {
+    background-size: cover;
+    height: 500px;
+}
+
+/* lastest posts */
+/* Assuming the dark theme is active, these styles will apply. */
+.latest-posts h2 {
+  color: #fff; /* Bright text for dark backgrounds */
+}
+
+.latest-posts ul {
+  list-style: none; /* This will remove the bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.latest-posts li.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem; /* Space between list items */
+  border-bottom: 1px solid #333; /* Optional: adds a line to separate posts */
+}
+
+.latest-posts .post-title a {
+  color: #aad1e6; /* Light blue color for links, stands out on dark background */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.latest-posts .post-title a:hover {
+  text-decoration: underline;
+}
+
+.latest-posts .post-date {
+  color: #8892a2; /* A lighter gray for the date, visible on dark background */
+  font-size: 0.9em;
+  text-align: right;
+  flex-shrink: 0; /* Prevents the date from shrinking if space is tight */
+}
+
 
 
